@@ -30,6 +30,3 @@ int main(void)
 	}
 	return (0);
 }
-	/* your code goes there */
-	return (0);
-}
