@@ -13,7 +13,7 @@ int main(void)
 	char alphabet = 'a';
 
 	srand(time(0));
-	n = rand() - RAND_MAX / 2;
+	a = rand() - RAND_MAX / 2;
 	while (alphabet <= 'z')
 	{
 		putchar(alphabet);
