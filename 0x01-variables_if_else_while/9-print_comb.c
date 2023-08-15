@@ -10,10 +10,8 @@
 int main(void)
 {
 	int x;
-	for (x = 48; x < 58; x++)
 
-		srand(time(0));
-		x = rand() - RAND_MAX / 2;
+	for (x = 48; x < 58; x++)
 
 	{
 		putchar(x);
