@@ -15,7 +15,7 @@ int main(void)
 	{
 		printf("'%c' is uppercase alphabet.", ch);
 	}
-	else if(ch >= 'a' && ch <= 'z)
+	else if(ch >= 'a' && ch <= 'z')
 	{
 		printf("'%c' is lowercase alphabet.", ch);
 	}
@@ -23,5 +23,5 @@ int main(void)
 	{
 		printf("'%c' is not an alphabet.", ch);
 	}
-	return 0;
+	return (0);
 }
