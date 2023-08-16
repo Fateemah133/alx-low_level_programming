@@ -6,14 +6,22 @@
  */
 int main(void)
 {
-	int r;
-
-    r = _islower('H');
-    _putchar(r + '0');
-    r = _islower('o');
-    _putchar(r + '0');
-    r = _islower(108);
-    _putchar(r + '0');
-    _putchar('\n');
-    return (0);
+	char ch;
+	
+	printf("Enter any character: ");
+	scanf("%c", &ch);
+	
+	if(ch >= 'A' && ch <= 'Z')
+	{
+		printf("'%c' is uppercase alphabet.", ch);
+	}
+	else if(ch >= 'a' && ch <= 'z)
+	{
+		printf("'%c' is lowercase alphabet.", ch);
+	}
+	else
+	{
+		printf("'%c' is not an alphabet.", ch);
+	}
+	return 0;
 }
