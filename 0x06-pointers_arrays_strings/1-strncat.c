@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * char *_strncat - a funtion that concenate two string
+ * _strncat - a funtion that concenate two string
  * @dest: copy to 
  * @src: copy from
  * @n: input
