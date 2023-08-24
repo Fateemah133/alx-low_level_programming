@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _strncat - a funtion that concenate two string
- * @dest: copy to 
- * @src: copy from
- * @n: input
+ * _strncat - concatenate two strings
+ * @dest: input value
+ * @src: input value
+ * @n: input value
  * Return: dest
  */
 char *_strncat(char *dest, char *src, int n)
@@ -18,7 +18,7 @@ char *_strncat(char *dest, char *src, int n)
 	}
 	while (x < n && src[x] != '\0')
 	{
-		dest[i] = src [x];
+		dest[i] = src[x];
 		i++;
 		x++;
 	}
