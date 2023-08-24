@@ -4,16 +4,24 @@
  * char *_strncat - a funtion that concenate two string
  * @dest: copy to 
  * @src: copy from
+ * @n: input
+ * Return: dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	size_t dest_len = strlen(dest);
-	size_t i;
-	
-	for (i = 0 ; i < n && src[i] != '\0' ; i++)
+	int i = 0;
+	int x = 0;
+
+	while (dest[i] != '\0')
 	{
-		dest[dest_len + i] = src[i];
+		i++;
 	}
-	dest[dest_len + i] = '\0';
-	return dest;
+	while (x < n && src[x] != '\0')
+	{
+		dest[i] = src [x];
+		i++;
+		x++;
+	}
+	dest[i] = '\0';
+	return (dest);
 }
